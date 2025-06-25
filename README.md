@@ -1,3 +1,12 @@
 # X-UNet:A Novel Global Context-aware Collaborative Fusion U-shaped Network with Progressive Feature Fusion of Codec for medical image segmentation
 Abstract: Due to the inductive bias of convolutions, CNNs perform hierarchical feature extraction efficiently in the field of medical image segmentation. However, the local correlation assumption of inductive bias limits the ability of convolutions to focus on global information, which has led to the performance of Transformer-based methods surpassing that of CNNs in some segmentation tasks in recent years. Although combining with Transformer can solve this problem, it also introduces computational complexity and considerable parameters. In addition, narrowing the encoder-decoder semantic gap for high-quality mask generation is a key challenge, addressed in recent works through feature aggregation from different skip connections. However, this often results in semantic mismatches and additional noise. In this paper, we propose a novel segmentation method, X-UNet, whose backbone employs the CFGC (Collaborative Fusion with Global Context-aware) module. The CFGC module enables multi-scale feature extraction and effective global context modeling. Simultaneously, we employ the CSPF (Cross Split-channel Progressive Fusion) module to progressively align and fuse features from corresponding encoder and decoder stages through channel-wise operations, offering a novel approach to feature integration. Experimental results demonstrate that X-UNet, with fewer computations and parameters, exhibits superior performance on various medical image datasets.
 ![image](https://github.com/XSJ0410/X-UNet/blob/main/XUNet.jpg)
+# Acknowledgements:
+
+We gratefully acknowledge the following supports for this research and code implementation:
+
+Special thanks to the open-source training framework of [UNeXt](https://github.com/4uiiurz1/pytorch-nested-unet), which provided critical methodological references for our experimental design.
+We deeply appreciate the computational resources and technical support from the NHC Key Laboratory of Nuclear Technology Medical Transformation at Mianyang Central Hospital, which were fundamental to completing this research.
+We extend our gratitude to all peer researchers and community contributors whose constructive feedback helped improve this work.
+The release of this code aims to foster collaboration in medical image segmentation research. We welcome further improvements from the research community.
+
