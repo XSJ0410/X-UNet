@@ -3,11 +3,7 @@ Abstract: Due to the inductive bias of convolutions, CNNs perform hierarchical f
 ![image](https://github.com/XSJ0410/X-UNet/blob/main/XUNet.jpg)
 # Acknowledgements:
 
-We gratefully acknowledge the following supports for this research and code implementation:
-
 Special thanks to the open-source training framework of [UNeXt](https://github.com/4uiiurz1/pytorch-nested-unet), which provided critical methodological references for our experimental design.
-
-We deeply appreciate the computational resources and technical support from the NHC Key Laboratory of Nuclear Technology Medical Transformation at Mianyang Central Hospital, which were fundamental to completing this research.
 
 We extend our gratitude to all peer researchers and community contributors whose constructive feedback helped improve this work.
 The release of this code aims to foster collaboration in medical image segmentation research. We welcome further improvements from the research community.
