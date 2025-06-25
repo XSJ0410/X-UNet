@@ -1,0 +1,9 @@
+We gratefully acknowledge the following supports for this research and code implementation:
+
+Special thanks to the [UNeXt] (https://github.com/jeya-maria-jose/UNeXt-pytorch) team for their open-source training framework , which provided critical methodological references for our experimental design.
+
+We deeply appreciate the computational resources and technical support from the NHC Key Laboratory of Nuclear Technology Medical Transformation at Mianyang Central Hospital, which were fundamental to completing this research.
+
+We extend our gratitude to all peer researchers and community contributors whose constructive feedback helped improve this work.
+
+The release of this code aims to foster collaboration in medical image segmentation research. We welcome further improvements from the research community
